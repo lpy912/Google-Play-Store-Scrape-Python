@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[1]:
-
-
 import time
 from selenium import webdriver
 import re
@@ -60,8 +54,6 @@ to_break = 0
 all_data = {}
 try:
     while (True):
-        # Scroll down to bottom
-        #browser.execute_script("window.scrollTo(0, 7000);")
         try:
             flag = 0
             time.sleep(SCROLL_PAUSE_TIME)
